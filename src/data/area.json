@@ -6,7 +6,7 @@
     "provinceShortName": "湖北",
     "confirmedCount": 3554,
     "suspectedCount": 0,
-    "curedCount": 80,
+    "curedCount": 84,
     "deadCount": 125,
     "comment": "待明确地区：治愈 30",
     "cities": [
@@ -14,7 +14,7 @@
         "cityName": "武汉",
         "confirmedCount": 1905,
         "suspectedCount": 0,
-        "curedCount": 47,
+        "curedCount": 51,
         "deadCount": 104,
         "fullCityName": "武汉市"
       },
@@ -1095,23 +1095,23 @@
     "name": "山东",
     "provinceName": "山东省",
     "provinceShortName": "山东",
-    "confirmedCount": 121,
+    "confirmedCount": 130,
     "suspectedCount": 0,
-    "curedCount": 0,
+    "curedCount": 1,
     "deadCount": 0,
     "comment": "",
     "cities": [
       {
         "cityName": "青岛",
-        "confirmedCount": 15,
+        "confirmedCount": 17,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0,
         "fullCityName": "青岛市"
       },
       {
         "cityName": "临沂",
-        "confirmedCount": 15,
+        "confirmedCount": 16,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1119,11 +1119,19 @@
       },
       {
         "cityName": "威海",
-        "confirmedCount": 11,
+        "confirmedCount": 12,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "威海市"
+      },
+      {
+        "cityName": "烟台",
+        "confirmedCount": 12,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "烟台市"
       },
       {
         "cityName": "济南",
@@ -1142,14 +1150,6 @@
         "fullCityName": "德州市"
       },
       {
-        "cityName": "烟台",
-        "confirmedCount": 10,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "烟台市"
-      },
-      {
         "cityName": "枣庄",
         "confirmedCount": 8,
         "suspectedCount": 0,
@@ -1159,7 +1159,7 @@
       },
       {
         "cityName": "日照",
-        "confirmedCount": 7,
+        "confirmedCount": 8,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1175,7 +1175,7 @@
       },
       {
         "cityName": "滨州",
-        "confirmedCount": 6,
+        "confirmedCount": 7,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1207,7 +1207,7 @@
       },
       {
         "cityName": "聊城",
-        "confirmedCount": 3,
+        "confirmedCount": 4,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1716,107 +1716,22 @@
     ]
   },
   {
-    "pinyin": "fujian",
-    "name": "福建",
-    "provinceName": "福建省",
-    "provinceShortName": "福建",
-    "confirmedCount": 82,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "福州",
-        "confirmedCount": 24,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "福州市"
-      },
-      {
-        "cityName": "莆田",
-        "confirmedCount": 14,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "莆田市"
-      },
-      {
-        "cityName": "泉州",
-        "confirmedCount": 13,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "泉州市"
-      },
-      {
-        "cityName": "三明",
-        "confirmedCount": 8,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "三明市"
-      },
-      {
-        "cityName": "宁德",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "宁德市"
-      },
-      {
-        "cityName": "厦门",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "厦门市"
-      },
-      {
-        "cityName": "漳州",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "漳州市"
-      },
-      {
-        "cityName": "南平",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "南平市"
-      },
-      {
-        "cityName": "龙岩",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "龙岩市"
-      }
-    ]
-  },
-  {
     "pinyin": "shanghai",
     "name": "上海",
     "provinceName": "上海市",
     "provinceShortName": "上海",
-    "confirmedCount": 80,
+    "confirmedCount": 96,
     "suspectedCount": 0,
     "curedCount": 5,
     "deadCount": 1,
-    "comment": "待明确地区：确诊 7 死亡 1 治愈 2",
+    "comment": "",
     "cities": [
       {
         "cityName": "外地来沪人员",
-        "confirmedCount": 40,
+        "confirmedCount": 47,
         "suspectedCount": 0,
-        "curedCount": 3,
-        "deadCount": 0,
+        "curedCount": 5,
+        "deadCount": 1,
         "fullCityName": "外地来沪人员区"
       },
       {
@@ -1845,11 +1760,19 @@
       },
       {
         "cityName": "徐汇",
-        "confirmedCount": 3,
+        "confirmedCount": 5,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "徐汇区"
+      },
+      {
+        "cityName": "奉贤",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "奉贤区"
       },
       {
         "cityName": "黄浦",
@@ -1893,19 +1816,112 @@
       },
       {
         "cityName": "嘉定",
-        "confirmedCount": 1,
+        "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "嘉定区"
       },
       {
-        "cityName": "奉贤",
+        "cityName": "松江",
         "confirmedCount": 1,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "奉贤区"
+        "fullCityName": "松江区"
+      },
+      {
+        "cityName": "金山",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "金山区"
+      }
+    ]
+  },
+  {
+    "pinyin": "fujian",
+    "name": "福建",
+    "provinceName": "福建省",
+    "provinceShortName": "福建",
+    "confirmedCount": 84,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "福州",
+        "confirmedCount": 24,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "福州市"
+      },
+      {
+        "cityName": "莆田",
+        "confirmedCount": 14,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "莆田市"
+      },
+      {
+        "cityName": "泉州",
+        "confirmedCount": 13,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "泉州市"
+      },
+      {
+        "cityName": "三明",
+        "confirmedCount": 9,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "三明市"
+      },
+      {
+        "cityName": "宁德",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "宁德市"
+      },
+      {
+        "cityName": "漳州",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "漳州市"
+      },
+      {
+        "cityName": "厦门",
+        "confirmedCount": 6,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "厦门市"
+      },
+      {
+        "cityName": "南平",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "南平市"
+      },
+      {
+        "cityName": "龙岩",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "龙岩市"
       }
     ]
   },
@@ -2371,7 +2387,7 @@
     "name": "黑龙江",
     "provinceName": "黑龙江省",
     "provinceShortName": "黑龙江",
-    "confirmedCount": 37,
+    "confirmedCount": 38,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 1,
@@ -2448,6 +2464,14 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "鸡西市"
+      },
+      {
+        "cityName": "大兴安岭",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "大兴安岭市"
       }
     ]
   },
@@ -2456,7 +2480,7 @@
     "name": "辽宁",
     "provinceName": "辽宁省",
     "provinceShortName": "辽宁",
-    "confirmedCount": 37,
+    "confirmedCount": 38,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,
@@ -2464,7 +2488,7 @@
     "cities": [
       {
         "cityName": "沈阳",
-        "confirmedCount": 8,
+        "confirmedCount": 9,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,

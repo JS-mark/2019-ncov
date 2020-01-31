@@ -2,6 +2,7 @@
   "name": "ncov",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://JS-mark.github.io/2019-ncov",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,6 +11,7 @@
     "dayjs": "^1.8.19",
     "echarts": "^4.6.0",
     "echarts-for-react": "^2.0.15-beta.1",
+    "gh-pages": "^2.2.0",
     "lodash": "^4.17.15",
     "lodash.keyby": "^4.6.0",
     "pinyin": "^2.9.0",
@@ -20,6 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

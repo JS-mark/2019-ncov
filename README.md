@@ -12,9 +12,9 @@
 
 ``` bash
 # 获取数据
-$ node build-origin.js
+node build-origin.js
 
-$ npm start
+npm start
 ```
 
 ## 数据来源
@@ -23,4 +23,4 @@ $ npm start
 
 ## 部署
 
-使用 `github actions` 与 `alioss` 自动部署，每半个小时部署一次(为了获取最新数据)。
+基于 github 二级域名构建

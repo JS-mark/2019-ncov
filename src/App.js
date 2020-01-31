@@ -69,8 +69,6 @@ function App() {
             <Tag number={overall.suspectedCount || '-'}>
               疑似
             </Tag>
-          {/* </div>
-          <div className="row"> */}
             <Tag number={overall.deadCount}>
               死亡
             </Tag>
@@ -117,7 +115,7 @@ function App() {
       </div>
       <div className="fallback">
         <div>
-          代码仓库: <a href="https://github.com/shfshanyue/2019-ncov">shfshanyue/2019-ncov</a>
+          代码仓库: <a href="https://github.com/JS-mark/2019-ncov/">2019-ncov</a>
         </div>
       </div>
     </div>

@@ -656,7 +656,7 @@
     "provinceShortName": "湖南",
     "confirmedCount": 593,
     "suspectedCount": 0,
-    "curedCount": 22,
+    "curedCount": 26,
     "deadCount": 0,
     "comment": "",
     "locationId": 430000,
@@ -665,7 +665,7 @@
         "cityName": "长沙",
         "confirmedCount": 148,
         "suspectedCount": 0,
-        "curedCount": 2,
+        "curedCount": 6,
         "deadCount": 0,
         "locationId": 430100,
         "fullCityName": "长沙市"
@@ -796,7 +796,7 @@
     "provinceShortName": "安徽",
     "confirmedCount": 480,
     "suspectedCount": 0,
-    "curedCount": 14,
+    "curedCount": 20,
     "deadCount": 0,
     "comment": "",
     "locationId": 340000,
@@ -814,7 +814,7 @@
         "cityName": "阜阳",
         "confirmedCount": 79,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 3,
         "deadCount": 0,
         "locationId": 341200,
         "fullCityName": "阜阳市"
@@ -823,7 +823,7 @@
         "cityName": "安庆",
         "confirmedCount": 55,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 3,
         "deadCount": 0,
         "locationId": 340800,
         "fullCityName": "安庆市"
@@ -1414,7 +1414,7 @@
     "provinceShortName": "江苏",
     "confirmedCount": 308,
     "suspectedCount": 0,
-    "curedCount": 8,
+    "curedCount": 10,
     "deadCount": 0,
     "comment": "",
     "locationId": 320000,
@@ -1486,7 +1486,7 @@
         "cityName": "常州",
         "confirmedCount": 19,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 2,
         "deadCount": 0,
         "locationId": 320400,
         "fullCityName": "常州市"
@@ -2055,7 +2055,7 @@
     "provinceShortName": "上海",
     "confirmedCount": 208,
     "suspectedCount": 0,
-    "curedCount": 10,
+    "curedCount": 12,
     "deadCount": 1,
     "comment": "治愈数据统一归属上海市公卫临床中心，暂无具体分区",
     "locationId": 310000,
@@ -2064,7 +2064,7 @@
         "cityName": "外地来沪人员",
         "confirmedCount": 79,
         "suspectedCount": 0,
-        "curedCount": 5,
+        "curedCount": 6,
         "deadCount": 1,
         "locationId": -1,
         "fullCityName": "外地来沪人员区"
@@ -2217,7 +2217,7 @@
         "cityName": "未知地区",
         "confirmedCount": 0,
         "suspectedCount": 0,
-        "curedCount": 5,
+        "curedCount": 6,
         "deadCount": 0,
         "locationId": -1,
         "fullCityName": "未知地区区"
@@ -2570,7 +2570,7 @@
     "provinceShortName": "广西",
     "confirmedCount": 139,
     "suspectedCount": 0,
-    "curedCount": 7,
+    "curedCount": 10,
     "deadCount": 0,
     "comment": "",
     "locationId": 450000,
@@ -2588,7 +2588,7 @@
         "cityName": "北海",
         "confirmedCount": 27,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 2,
         "deadCount": 0,
         "locationId": 450500,
         "fullCityName": "北海市"
@@ -2606,7 +2606,7 @@
         "cityName": "柳州",
         "confirmedCount": 15,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0,
         "locationId": 450200,
         "fullCityName": "柳州市"
@@ -2943,7 +2943,7 @@
     "name": "海南",
     "provinceName": "海南省",
     "provinceShortName": "海南",
-    "confirmedCount": 79,
+    "confirmedCount": 80,
     "suspectedCount": 0,
     "curedCount": 4,
     "deadCount": 1,
@@ -3042,7 +3042,7 @@
       },
       {
         "cityName": "东方",
-        "confirmedCount": 1,
+        "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -3327,7 +3327,7 @@
     "name": "天津",
     "provinceName": "天津市",
     "provinceShortName": "天津",
-    "confirmedCount": 60,
+    "confirmedCount": 66,
     "suspectedCount": 0,
     "curedCount": 1,
     "deadCount": 0,
@@ -3336,7 +3336,7 @@
     "cities": [
       {
         "cityName": "宝坻区",
-        "confirmedCount": 11,
+        "confirmedCount": 13,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -3345,7 +3345,7 @@
       },
       {
         "cityName": "河北区",
-        "confirmedCount": 9,
+        "confirmedCount": 10,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -3354,12 +3354,21 @@
       },
       {
         "cityName": "河东区",
-        "confirmedCount": 9,
+        "confirmedCount": 10,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "locationId": 120102,
         "fullCityName": "河东区"
+      },
+      {
+        "cityName": "和平区",
+        "confirmedCount": 6,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "locationId": 120101,
+        "fullCityName": "和平区"
       },
       {
         "cityName": "外地来津人员",
@@ -3371,13 +3380,13 @@
         "fullCityName": "外地来津人员市"
       },
       {
-        "cityName": "和平区",
-        "confirmedCount": 5,
+        "cityName": "河西区",
+        "confirmedCount": 4,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "locationId": 120101,
-        "fullCityName": "和平区"
+        "locationId": 120103,
+        "fullCityName": "河西区"
       },
       {
         "cityName": "宁河区",
@@ -3387,15 +3396,6 @@
         "deadCount": 0,
         "locationId": 120117,
         "fullCityName": "宁河区"
-      },
-      {
-        "cityName": "河西区",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "locationId": 120103,
-        "fullCityName": "河西区"
       },
       {
         "cityName": "东丽区",
@@ -4077,7 +4077,7 @@
     "name": "澳门",
     "provinceName": "澳门",
     "provinceShortName": "澳门",
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,

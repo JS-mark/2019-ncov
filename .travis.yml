@@ -11,14 +11,10 @@ install:
   - npm ci
 
 script:
-  - node ./build-origin.js
   - npm run build
 #after_script前5句是把部署分支的.git文件夹保护起来，用于保留历史部署的commit日志，否则部署分支永远只有一条commit记录。
 #命令里面的变量都是在Travis CI里配置过的。
 after_script:
-  - git add .
-  - git commit -m "更新数据"
-  - git push --force --quiet "https://${Travis_Token}@${GH_REF}" master
   - git clone https://${GH_REF} .temp
   - cd .temp
   - git checkout gh-pages
@@ -28,8 +24,8 @@ after_script:
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
-  - git commit -m ":construction_worker:- Build & Deploy by Travis CI"
-  - git push --force --quiet "https://${Travis_Token}@${GH_REF}" gh-pages:${D_BRANCH}
+  - git commit -m "update"
+  - git push --force --quiet "https://${Travis_Token}@${GH_REF}" gh-pages:gh-pages
 # E: Build LifeCycle
 
 # 只有指定的分支提交时才会运行脚本
@@ -39,6 +35,5 @@ branches:
 env:
   global:
     - GH_REF: github.com/JS-mark/2019-ncov.git
-    - D_BRANCH: gh-pages
     - U_EMAIL: sunduo3195@qq.com
     - U_NAME: JS-mark
